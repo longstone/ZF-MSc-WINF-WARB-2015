@@ -1,0 +1,207 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Large Colored Title Article
+% LaTeX Template
+% Version 1.1 (25/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[DIV=calc, paper=a4, fontsize=11pt, twocolumn]{scrartcl}	 % A4 paper and 11pt font size
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[german]{babel} % English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
+
+\usepackage{sectsty} % Enables custom section titles
+\allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
+
+\usepackage{fancyhdr} % Needed to define custom headers/footers
+\pagestyle{fancy} % Enables the custom headers/footers
+\usepackage{lastpage} % Used to determine the number of pages in the document (for "Page X of Total")
+
+% Headers - all currently empty
+\lhead{}
+\chead{}
+\rhead{}
+
+% Footers
+\lfoot{}
+\cfoot{}
+\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}} % "Page 1 of 2"
+
+\renewcommand{\headrulewidth}{0.0pt} % No header rule
+\renewcommand{\footrulewidth}{0.4pt} % Thin footer rule
+
+\usepackage{lettrine} % Package to accentuate the first letter of the text
+\newcommand{\initial}[1]{ % Defines the command and style for the first letter
+\lettrine[lines=3,lhang=0.3,nindent=0em]{
+\color{DarkBlue}
+{\textsf{#1}}}{}}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\usepackage{titling} % Allows custom title configuration
+
+\newcommand{\HorRule}{\color{DarkBlue} \rule{\linewidth}{1pt}} % Defines the gold horizontal rule around the title
+
+\pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{50}{50} \usefont{OT1}{phv}{b}{n} \color{DarkBlue} \selectfont} % Horizontal rule before the title
+
+\title{Wortdefinitionen WARB} % Your article title
+
+\posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
+
+\preauthor{\begin{flushleft}\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkBlue}} % Author font configuration
+
+\author{longstone, } % Your name
+
+\postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} % Configuration for the institution name
+ZHAW School of Management and Law  % Your institution
+
+\par\end{flushleft}\HorRule} % Horizontal rule after the title
+
+\date{} % Add a date here if you would like one to appear underneath the title block
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+\thispagestyle{fancy} % Enabling the custom headers/footers for the first page 
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+
+\subsection*{Qualitative Methode}
+Bsp: Interviews
+
+\subsection*{Quantitative Methode}
+Bsp: Umfragen
+
+\subsection*{Design Science}
+Methode der Wirtschaftsinformatik
+
+\subsection*{Proposition}
+'Neuer Begriff': wage allgemeine Hypothese (Vorstufe zur Hypothese)
+
+\subsection*{Hypothese}
+Vorstellung, mittels wissenschaftlichem zu Projekt überprüfen
+
+\subsection*{Habermas}
+Philosophie gehört zum kritischen Rationalismus.
+
+\subsection*{Karl Popper}
+Theorie des empirischen Falsifikationsprinzips
+
+\subsection*{Simulation}
+Methode um Prototypen zu validieren (eine Simulation kann ein Prototyp sein)
+
+\subsection*{Expertenbefragung}
+in der empirische Forschung, zur Validieren
+
+\subsection*{Relevanz}
+bedeutet das die Forschung in der Praxis n\"utzlich/von belang ist
+
+\subsection*{Theorie}
+
+\subsection*{Paradigma}
+die 2 Paradigmen der Wirtschaftsinformatik sind Gestalt- und Designorientiert
+
+\subsection*{Rigorosiät}
+pendant zur Relevanz, der wissenschaftlichen Ethik entsprechend (En: rigor)
+
+\subsection*{Meinung}
+kann falsifiziert werden
+
+\subsection*{Behaviorism (Verhaltensorientiert)}
+Paradigma das sich mit dem verhalten der menschen im Kontext zu Informationssystemen beschäftigt
+
+\subsection*{Empirie}
+Qualitativ um verhalten zu untersuchen (in der Regel)
+
+\subsection*{Reputation}
+Rigorosität / Nachvollziehbarkeit schützt vor Reputationsverlust
+
+\subsection*{Erkenntnisobjekt}
+Gegenstand der Forschung
+
+\subsection*{Validieren}
+Forschungsergebnisse werden immer Validiert
+
+\subsection*{Literaturanalyse}
+benötigt für state of the art
+
+\subsection*{Praxis}
+siehe auch Relevanz: sinnvoll alles was erforscht wird ist nützlich für die Praxis
+
+\subsection*{Wissenschaftlichkeit}
+Master thesis sollte die Kriterien der Wissenschaftlichkeit erfüllten
+
+\subsection*{Pluralismus}
+ich verwende verschiedene Methoden um meine Forschung möglichst rigoros darzustellen
+
+\subsection*{Gestaltorientierung (Design Science)}
+ich erstelle ein Artefakt
+
+\subsection*{Triangulation (== Pluralismus)}
+mehrere Methoden verwenden um zu Validieren
+
+\subsection*{Fallstudie}
+Empirisch
+
+\subsection*{Wissen}
+im Gegensatz zur Meinung, nachvollziehbar nicht falsifiziert
+
+\subsection*{Methode}
+TODO
+
+\subsection*{Hermeneutik}
+Methode zur analyse von Texten
+
+\subsection*{Interpretation}
+Analyse von Texten / Interviews, immer in Abhängigkeit mit dem sozialen Kontext
+
+\subsubsection*{Induktion}
+vom Einzelfall auf eine allgemeingültige Aussage schliessen
+
+\subsubsection*{Deduktion}
+von der Allgemeingültigkeit zum Einzelfall
+
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+\bibitem[Aspiron, 2015]{Aspiron:2015}
+Prof. Dr. Petra Asprion
+\newblock Wissenschaftstheorie
+\newblock {\em Modul WARB, MSc Wirtschaftsinformatik}
+ 
+ \bibitem[Slobi, 2015]{Slobi:2015}
+BSc Computer Science Slobi S
+\newblock Handnotizen
+\newblock {\em Modul WARB, MSc Wirtschaftsinformatik}
+ 
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
